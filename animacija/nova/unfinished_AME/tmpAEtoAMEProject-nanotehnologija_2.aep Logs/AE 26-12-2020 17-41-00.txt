@@ -1,0 +1,8 @@
+  26/12/2020 17:41:00: Starting composition “nanotehnologija”.
+
+  Output To: C:\Users\stefa\OneDrive\Namizje\nanotehnologija.avi    26/12/2020 17:42:27: Finished composition “nanotehnologija”.
+
+
+  Total Time Elapsed: 1 Min, 26 Sec
+Log closed on 26/12/2020 at 17:42:27
+

@@ -6,6 +6,10 @@
 <title>Untitled Document</title>
 	<style>
 		
+		html{
+			background-color: #000000;
+		}
+		
 		*
 		{
 			margin: 0;
@@ -22,16 +26,18 @@
 			padding: 10px;
 			width: auto;
 			color: #00E9FF;
-			background: #9F00FF;
+			background: #000000;
 		}
 		
 		p:hover {
-			background: #AC50FF;
+			color:#0093FF;
+			border: #0093FF thick solid;
 		}
 		
 		p:active {
-			color: #0057FF;
-			border: #0057FF thick solid;
+			color:#00E9FF;
+			border: #00E9FF thick solid;
+			background: #004177;
 		}
 		
 		a {
@@ -46,25 +52,19 @@
 			bottom: 25%;
 		}
 		
-		#animacija {
-				position: absolute;
-				height: 100%;
-				width: 100%;
-			}
-			
-			object {
-				width: 100%;
-				height: 100%;
-			}
+		video {
+			position: absolute;
+			left: 50%; top: 50%;
+			transform: translate(-50%, -50%);
+			width: 87%;
+		}
 		
 	</style>
 </head>
 
 <body>
 	<div id="animacija">
-			<object>
-				<param name="movie" value="animacija/animacija.swf">
-			</object>
+			<video src="nanotehnologija1080.1.mp4" autoplay muted loop></video>
 		</div>
 	<div id="text">
 		<a href="2.html">

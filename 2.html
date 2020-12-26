@@ -6,6 +6,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
 	<style>
 		
+		html{
+			background-color: #000000;
+		}
+		
 		*
 		{
 			margin: 0;
@@ -21,17 +25,19 @@
 			max-width: 100%;
 			padding: 10px;
 			color: #00E9FF;
-			background: #9F00FF;
+			background: #000000;
 			margin-top: 20px;
 		}
 		
 		p:hover {
-			background: #AC50FF;
+			color:#0093FF;
+			border: #0093FF medium solid;
 		}
 		
 		p:active {
-			color: #0057FF;
-			border: #0057FF medium solid;
+			color:#00E9FF;
+			border: #00E9FF medium solid;
+			background: #004177;
 		}
 		
 		#text {
@@ -57,21 +63,26 @@
 			text-decoration: none;
 		}
 		
+		video {
+			position: absolute;
+			left: 50%; top: 50%;
+			transform: translate(-50%, -50%);
+			width: 87%;
+		}
+		
 	</style>
 </head>
 
 <body>
 	<div id="animacija">
-			<object>
-				<param name="movie" value="animacija/animacija2.swf">
-			</object>
+			<video src="nanotehnologija1080.2.mp4" autoplay muted loop></video>
 		</div>
 	<div id="text">
 		<a href="https://inter4life.github.io/Nanotehnologija/"><p>Uvod</p></a>
-		<p>Nanotehnologija v medicini</p>
-		<p>Nanotehnologija in kemija</p>
-		<p>Nanotehnologija in fizika</p>
-		<p>Drugo</p>
+		<a href=""><p>Nanotehnologija v medicini</p></a>
+		<a href=""><p>Nanotehnologija in kemija</p></a>
+		<a href=""><p>Nanotehnologija in fizika</p></a>
+		<a href=""><p>Drugo</p></a>
 	</div>
 </body>
 </html>

@@ -1,0 +1,8 @@
+  26/12/2020 17:39:37: Starting composition “nanotehnologija”.
+
+  Output To: C:\Users\stefa\OneDrive\Namizje\nanotehnologija_1.avi      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.  After Effects error: An output module stopped responding. The file may be damaged or corrupted. You may need to restart After Effects.    Render stopped by user.    26/12/2020 17:40:27: Finished composition “nanotehnologija”.
+
+
+  Total Time Elapsed: 32 Seconds
+Log closed on 26/12/2020 at 17:40:27
+
